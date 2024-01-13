@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Figtree-Italic-VariableFont_wght.ttf",
+      "sha1": "e27253a59f05a1a622ff8be64c9fa785ef14620e"
+    },
+    {
+      "path": "src/assets/fonts/Figtree-VariableFont_wght.ttf",
+      "sha1": "1a2c3b4b2e4e4f6831124e10de6703f517e09509"
+    },
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "a61fe167ccaf704b42406f93291c6b24a765a5e9"
+    },
+    {
+      "path": "src/assets/fonts/README.txt",
+      "sha1": "7eac236a37fbbb55b86e7526f2db749d19f1014e"
+    },
+    {
+      "path": "src/assets/fonts/static/Figtree-ExtraBold.ttf",
+      "sha1": "39972229860e5ec379527f6d87b5aff21a6183a7"
+    },
+    {
+      "path": "src/assets/fonts/static/Figtree-SemiBold.ttf",
+      "sha1": "21b09a00065c5800021b6d2c969c83496f7d4d06"
+    }
+  ]
+}
