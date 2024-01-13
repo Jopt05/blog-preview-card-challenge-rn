@@ -16,12 +16,23 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center'
     },
+    cardShadow: {
+        backgroundColor: colors.secondary,
+        marginHorizontal: 30,
+        borderRadius: 20,
+        paddingRight: 2,
+        paddingBottom: 2,
+        position: 'relative',
+        left: 6,
+        top: 6
+    },
     cardContainer: {
         backgroundColor: 'white',
         padding: 25,
-        marginHorizontal: 30,
         borderRadius: 20,
-        borderWidth: 2
+        borderWidth: 2,
+        right: 6,
+        bottom: 6
     },
     cardImage: {
         borderRadius: 15,

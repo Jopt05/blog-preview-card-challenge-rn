@@ -7,41 +7,43 @@ const cardUserImgLocation = "../assets/images/image-avatar.webp";
 
 export const BlogScreen = () => {
   return (
-    <View style={ styles.cardContainer }>
-      <Image 
-        style={ styles.cardImage }
-        source={require(cardSvgLocation)}
-      />
-
-      <View style={ styles.cardTopic }>
-        <Text style={ styles.cardTopicText }>
-          Learning
-        </Text>
-      </View>
-
-      <Text style={ styles.cardDateText }>
-        Published 21 Dec 2023
-      </Text>
-
-      <Text style={ styles.cardTitle }>
-        HTML & CSS foundations
-      </Text>
-
-      <Text 
-        style={ styles.cardDescription }
-      >
-        These languages are the backbone of every
-        webiste, defining structure, content and presentation.
-      </Text>
-
-      <View style={ styles.cardUserContainer }>
+    <View style={ styles.cardShadow }>
+      <View style={ styles.cardContainer }>
         <Image 
-          source={require(cardUserImgLocation)}
-          style={ styles.cardUserImage }
+          style={ styles.cardImage }
+          source={require(cardSvgLocation)}
         />
-        <Text style={ styles.cardUserText }>
-          Greg Hooper
+
+        <View style={ styles.cardTopic }>
+          <Text style={ styles.cardTopicText }>
+            Learning
+          </Text>
+        </View>
+
+        <Text style={ styles.cardDateText }>
+          Published 21 Dec 2023
         </Text>
+
+        <Text style={ styles.cardTitle }>
+          HTML & CSS foundations
+        </Text>
+
+        <Text 
+          style={ styles.cardDescription }
+        >
+          These languages are the backbone of every
+          webiste, defining structure, content and presentation.
+        </Text>
+
+        <View style={ styles.cardUserContainer }>
+          <Image 
+            source={require(cardUserImgLocation)}
+            style={ styles.cardUserImage }
+          />
+          <Text style={ styles.cardUserText }>
+            Greg Hooper
+          </Text>
+        </View>
       </View>
     </View>
   )
